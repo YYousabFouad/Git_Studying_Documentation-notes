@@ -65,4 +65,3 @@ GitHub takes Git to "online multiplayer mode," allowing for remote backups and t
 ---
 
 _This study series is based on the Git Crash Course by Net Ninja. Connect with me on LinkedIn to follow my progress!_
-# Git_Studying_Documentation-notes
