@@ -1,67 +1,193 @@
----
-
 # 🚀 Git & GitHub Masterclass: Study Series
 
-Welcome to my personal study repository for the **Git and GitHub Masterclass**. This repository serves as a "magical time machine" for my code, documenting my progress as I master version control essentials.
+![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-orange?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-Learning-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Documentation-181717?style=for-the-badge&logo=github)
 
-## 📖 About This Series
-
-I am documenting my journey of learning Git and GitHub through a structured study series. Version control is no longer just a "nice-to-have" skill; it is a fundamental requirement for modern developers to collaborate effectively and manage project history without the headache of multiple "Final_v2_actual_final" folders.
-
-## 🛠️ Phase 1: Setup & Core Concepts
-
-Before diving into code, I configured my environment to ensure every "snapshot" (commit) I take is correctly attributed to me.
-
-- **Installation:** Installed Git and **Git Bash** to provide a Unix-like command line experience on Windows.
-- **Configuration:** Set up global identity using:
-  ```bash
-  git config --global user.name "Your Name"
-  git config --global user.email "your.email@example.com"
-  ```
-- **The Three Areas:** Understanding the flow between the **Working Directory** (editing), the **Staging Area** (prepping), and the **Repository** (saving history).
-
-## 📂 Phase 2: Essential Workflow
-
-The heart of Git is the **Edit → Add → Commit** cycle.
-
-1.  **Initialize a Repo:** Transforming a standard folder into a Git repository using `git init`, which creates the hidden `.git` folder.
-2.  **Staging Files:** Using `git add .` to move changes into the "shopping cart" before making them permanent.
-3.  **Making Commits:** Saving snapshots with descriptive messages using `git commit -m "message"`.
-4.  **Viewing History:** Navigating the timeline with `git log --oneline`.
-
-## 🌿 Phase 3: Branching & Merging
-
-Branching allows for "parallel universes" where I can experiment on new features without breaking the stable **main** branch.
-
-- **Create & Switch:** `git switch -c feature-name` to create and jump into a new branch instantly.
-- **Merging:** Bringing successful features back to the main branch using `git merge feature-name`.
-- **Cleanup:** Deleting finished branches with `git branch -d branch-name` to keep the repository organized.
-
-## 🛡️ Phase 4: Undoing & Ignoring
-
-Mistakes happen, and Git provides the tools to fix them.
-
-- **Undoing:** Using `git restore` to discard unstaged changes or `git reset --hard` to rewind the entire project to a previous state.
-- **The `.gitignore`:** Using a `.gitignore` file to tell Git to ignore "clutter" like `node_modules`, API keys, or OS-specific files.
-
-## 🌐 Phase 5: GitHub & Collaboration
-
-GitHub takes Git to "online multiplayer mode," allowing for remote backups and team collaboration.
-
-- **Remote Repos:** Connecting local work to GitHub using `git remote add origin [URL]`.
-- **Push & Pull:** Uploading local commits with `git push` and fetching team updates with `git pull`.
-- **Collaboration:** Learning about **Pull Requests (PRs)** for code reviews and **Issues** for bug tracking.
-
-## 📋 Quick Reference Cheatsheet
-
-| Command            | Purpose                                                    |
-| :----------------- | :--------------------------------------------------------- |
-| `git status`       | Check the state of the working directory and staging area. |
-| `git add <file>`   | Add specific files to the staging area.                    |
-| `git commit -m ""` | Save a snapshot of staged changes.                         |
-| `git branch`       | List all local branches.                                   |
-| `git diff`         | See exactly what lines changed between commits.            |
+> ⚠️ **Work in Progress**
+>
+> This repository is currently under active development.
+>
+> I'm continuously adding new chapters, improving explanations, creating diagrams, mind maps, and updating the documentation as I progress through the course.
+>
+> If a topic you're looking for isn't available yet, it will be added in a future update.
 
 ---
 
-_This study series is based on the Git Crash Course by Net Ninja. Connect with me on LinkedIn to follow my progress!_
+## 📖 About This Repository
+
+Welcome to my personal **Git & GitHub Study Series** repository.
+
+This repository documents my journey of learning **Git** and **GitHub** through structured notes, diagrams, mind maps, practical examples, infographics, and cheat sheets.
+
+The goal of this project is **not** to memorize Git commands, but to understand:
+
+- How Git works internally.
+- Why each Git command exists.
+- How GitHub fits into a modern development workflow.
+- Professional Git best practices used in real-world projects.
+
+Whether you're a beginner or someone looking for organized revision notes, I hope this repository becomes a valuable learning resource.
+
+---
+
+# 🎥 Course Credit
+
+This documentation is primarily based on the excellent **Git & GitHub Tutorial for Beginners** series by **The Net Ninja**.
+
+📺 **Original Playlist**
+
+https://www.youtube.com/playlist?list=PL4cUxeGkcC9j2pbmcA93DR1A3m7VEgSxK
+
+> **Credit**
+>
+> Full credit for the original course belongs to **The Net Ninja**.
+>
+> The notes, summaries, repository organization, diagrams, mind maps, examples, and additional explanations found in this repository are my own work, created while studying the course.
+
+---
+
+# 🎯 Repository Goals
+
+- 📚 Learn Git from Beginner → Advanced.
+- 🧠 Understand Git instead of memorizing commands.
+- 🌿 Master GitHub workflows.
+- 💻 Learn professional version control practices.
+- 📝 Build reusable study notes.
+- 🤝 Help other developers learn Git more easily.
+
+---
+
+# 📚 Current Progress
+
+| Status | Chapter                               |
+| :----: | ------------------------------------- |
+|   ✅   | 00 - Git Introduction                 |
+|   ✅   | 01 - Command Line Basics              |
+|   ✅   | 02 - Create a Repository              |
+|   ✅   | 03 - Staging Files                    |
+|   ✅   | 04 - Make Your First Commit           |
+|   🚧   | 05 - Deleting, Untracking & Unstaging |
+|   🚧   | 06 - Navigating Project History       |
+|   ⏳   | Branches                              |
+|   ⏳   | Merging                               |
+|   ⏳   | Merge Conflicts                       |
+|   ⏳   | Rebasing                              |
+|   ⏳   | Git Stash                             |
+|   ⏳   | Git Reset                             |
+|   ⏳   | Git Restore                           |
+|   ⏳   | Git Revert                            |
+|   ⏳   | Remote Repositories                   |
+|   ⏳   | GitHub                                |
+|   ⏳   | Pull Requests                         |
+|   ⏳   | Git Internals                         |
+|   ⏳   | Professional Workflow                 |
+|   ⏳   | Git Best Practices                    |
+
+---
+
+# 📂 Repository Structure
+
+```text
+Git/
+│
+├── README.md
+│
+├── 00-Git Intro/
+│   ├── Git Introduction.md
+│   └── git_Intro.png
+│
+├── 01-Command Line Basics/
+│   ├── The Basic commands of terminal.md
+│   └── howToNavigateToYourFolder.png
+│
+├── 02-Create A Repo/
+│
+├── 03-Staging files/
+│
+├── 04-Make your first commit/
+│
+├── 05-Deleting and Untracking/
+│
+├── 06-How To Navigate In Project History/
+│
+└── More chapters coming soon...
+```
+
+---
+
+# ✨ What You'll Find
+
+Every chapter contains:
+
+- 📝 Beginner-friendly notes
+- 💻 Git command syntax
+- 📖 Practical examples
+- 📊 Workflow diagrams
+- 🧠 Mind maps
+- 🎨 Infographics
+- 💡 Tips & Best Practices
+- ⚠️ Common mistakes
+- 📌 Chapter summaries
+
+---
+
+# 🚀 Learning Philosophy
+
+This repository focuses on **understanding** Git.
+
+Instead of simply showing commands, every chapter explains:
+
+- ✅ Why the command exists.
+- ✅ When to use it.
+- ✅ What happens internally.
+- ✅ Real-world examples.
+- ✅ Visual workflows.
+- ✅ Best practices.
+
+The objective is to become confident using Git—not just remembering command syntax.
+
+---
+
+# 📅 Future Plans
+
+The documentation will continue to grow and will eventually include:
+
+- 🌿 Branching
+- 🔀 Merge
+- ⚔️ Merge Conflicts
+- 🧬 Rebasing
+- 📦 Git Stash
+- ↩️ Git Reset
+- 🔄 Git Restore
+- 🛡️ Git Revert
+- 🌍 Remote Repositories
+- ☁️ GitHub
+- 🔃 Pull Requests
+- 🏷️ Tags & Releases
+- ⚙️ Git Internals
+- 🔑 SSH Authentication
+- 🌊 Git Flow
+- 🚀 GitHub Flow
+- 📝 Conventional Commits
+- 💼 Professional Git Workflow
+- 🎯 Interview Questions
+- 📋 Cheat Sheets
+
+---
+
+# 🤝 Contributing
+
+Suggestions, corrections, and improvements are always welcome.
+
+If you notice any mistakes or have ideas to improve the documentation, feel free to open an Issue or submit a Pull Request.
+
+---
+
+# ⭐ Support
+
+If these notes help you during your Git journey, consider giving this repository a ⭐.
+
+Your support motivates me to continue improving the documentation and adding more chapters.
+
+Happy Learning! 🚀
