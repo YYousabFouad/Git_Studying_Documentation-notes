@@ -87,64 +87,44 @@ https://www.youtube.com/playlist?list=PL4cUxeGkcC9j2pbmcA93DR1A3m7VEgSxK
 
 # 📂 Repository Structure
 
+```text
 Git/
 │
 ├── README.md
 │
-├── 00-Git Intro/
-│ ├── Git Introduction.md
-│ └── git_Intro.png
+├── 📘 Part 1 - Getting Started/
+│   ├── 00-Git Intro/
+│   ├── 01-Command Line Basics/
+│   └── 02-Create a Repository/
 │
-├── 01-Command Line Basics/
-│ ├── The Basic Commands of Terminal.md
-│ └── howToNavigateToYourFolder.png
+├── 📘 Part 2 - Daily Git Workflow/
+│   ├── 03-Staging Files/
+│   ├── 04-First Commit/
+│   ├── 05-Deleting, Untracking & Unstaging/
+│   ├── 06-Project History/
+│   ├── 07-Undoing Changes/
+│   └── 08-.gitignore/
 │
-├── 02-Create A Repo/
-│ ├── Create a Repo.md
-│ └── initializeRepo_whatYouWillFindNext.png
+├── 📘 Part 3 - Branching/
+│   └── 09-Branches/
+│       ├── Images/
+│       ├── 00-What Is a Branch.md
+│       ├── 01-Creating and Switching Branches.md
+│       ├── 02-Managing Branches.md
+│       ├── 03-Merging Branches.md
+│       ├── 04-Merge Conflicts.md
+│       ├── 05-Rebasing.md
+│       ├── 06-Remote Branches.md
+│       ├── 07-Tracking Branches.md
+│       ├── 08-Branching Workflows.md
+│       └── Branch Cheat Sheet.md
 │
-├── 03-Staging Files/
-│ ├── Staging Files in Details.md
-│ └── Staging.png
-│
-├── 04-Make Your First Commit/
-│ ├── Create Your First Commit.md
-│ └── firstCommitWorkflow.png
-│
-├── 05-Deleting, Untracking & Unstaging/
-│ ├── Delete, Untrack and Unstage Files.md
-│ └── deletingVsUntrackingVsUnstaging.png
-│
-├── 06-Navigate Project History/
-│ ├── Viewing the History of Your Project.md
-│ ├── NavigateYourProjectHistory.png
-│ ├── BasicCommandLineForGit.png
-│ └── TerminalNavigationWorkflow.png
-│
-├── 07-Undoing Changes/
-│ ├── Undoing Changes.md
-│ └── undoing_changes.png
-│
-├── 08-.gitignore/
-│ ├── .gitignore.md
-│ └── gitignore.png
-│
-├── 09-Branches/
-│ ├── Images/
-│ ├── 00-What Is a Branch.md
-│ ├── 01-Creating and Switching Branches.md
-│ ├── 02-Managing Branches.md
-│ ├── 03-Merging Branches.md
-│ ├── 04-Merge Conflicts.md
-│ ├── 05-Rebasing.md
-│ ├── 06-Remote Branches.md
-│ ├── 07-Tracking Branches.md
-│ ├── 08-Branching Workflows.md
-│ └── Branch Cheat Sheet.md
-│
-├── Essential Git Workflow.md
-├── Git Workflow.png
-└── Total Command Lines of Git.md
+├── 📚 Reference/
+│   ├── Essential Git Workflow.md
+│   ├── Git Workflow.png
+│   └── Total Command Lines of Git.md
+
+```
 
 ---
 
