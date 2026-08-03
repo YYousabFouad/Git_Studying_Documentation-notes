@@ -82,7 +82,6 @@ https://www.youtube.com/playlist?list=PL4cUxeGkcC9j2pbmcA93DR1A3m7VEgSxK
 |   ⏳   | Pull Requests                         |
 |   ⏳   | Git Internals                         |
 |   ⏳   | Professional Workflow                 |
-|   ⏳   | Git Best Practices                    |
 
 ---
 
