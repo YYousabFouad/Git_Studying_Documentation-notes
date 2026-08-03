@@ -1,16 +1,18 @@
 # 🚀 Git & GitHub Masterclass: Study Series
 
-![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-orange?style=for-the-badge)
+```markdown
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 ![Git](https://img.shields.io/badge/Git-Learning-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-Documentation-181717?style=for-the-badge&logo=github)
 
-> ⚠️ **Work in Progress**
+> ✅ **Documentation Complete**
 >
-> This repository is currently under active development.
+> The documentation for this repository is now complete.
 >
-> I'm continuously adding new chapters, improving explanations, creating diagrams, mind maps, and updating the documentation as I progress through the course.
+> It covers the Git and GitHub concepts I learned throughout the course, including detailed explanations, practical examples, diagrams, mind maps, infographics, and cheat sheets.
 >
-> If a topic you're looking for isn't available yet, it will be added in a future update.
+> Although the core documentation is finished, I may continue improving the content by fixing mistakes, refining explanations, and adding new resources whenever I discover better practices or useful tips.
+```
 
 ---
 
