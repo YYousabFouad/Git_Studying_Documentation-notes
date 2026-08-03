@@ -62,26 +62,26 @@ https://www.youtube.com/playlist?list=PL4cUxeGkcC9j2pbmcA93DR1A3m7VEgSxK
 
 | Status | Chapter                               |
 | :----: | ------------------------------------- |
-|   ✅   | 00 - Git Introduction                 |
-|   ✅   | 01 - Command Line Basics              |
-|   ✅   | 02 - Create a Repository              |
-|   ✅   | 03 - Staging Files                    |
-|   ✅   | 04 - Make Your First Commit           |
-|   🚧   | 05 - Deleting, Untracking & Unstaging |
-|   🚧   | 06 - Navigating Project History       |
-|   ⏳   | Branches                              |
-|   ⏳   | Merging                               |
-|   ⏳   | Merge Conflicts                       |
-|   ⏳   | Rebasing                              |
-|   ⏳   | Git Stash                             |
-|   ⏳   | Git Reset                             |
-|   ⏳   | Git Restore                           |
-|   ⏳   | Git Revert                            |
-|   ⏳   | Remote Repositories                   |
-|   ⏳   | GitHub                                |
-|   ⏳   | Pull Requests                         |
-|   ⏳   | Git Internals                         |
-|   ⏳   | Professional Workflow                 |
+|   ✅    | 00 - Git Introduction                 |
+|   ✅    | 01 - Command Line Basics              |
+|   ✅    | 02 - Create a Repository              |
+|   ✅    | 03 - Staging Files                    |
+|   ✅    | 04 - Make Your First Commit           |
+|   ✅    | 05 - Deleting, Untracking & Unstaging |
+|   ✅    | 06 - Navigating Project History       |
+|   ✅    | Branches                              |
+|   ✅    | Merging                               |
+|   ✅    | Merge Conflicts                       |
+|   ✅    | Rebasing                              |
+|   ✅    | Git Stash                             |
+|   ✅    | Git Reset                             |
+|   ✅    | Git Restore                           |
+|   ✅    | Git Revert                            |
+|   ✅    | Remote Repositories                   |
+|   ✅    | GitHub                                |
+|   ✅    | Pull Requests                         |
+|   ✅    | Git Internals                         |
+|   ✅    | Professional Workflow                 |
 
 ---
 
